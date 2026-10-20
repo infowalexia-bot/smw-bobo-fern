@@ -1,0 +1,44 @@
+name: Make daily episode
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # every day 09:00 India time
+  workflow_dispatch:        # lets you press a Run button manually
+
+permissions:
+  contents: write
+
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg and Python packages
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install -r requirements.txt
+      - name: Make the episode
+        run: python generate.py
+      - name: Save video (download it from the run page)
+        uses: actions/upload-artifact@v4
+        with:
+          name: episode
+          path: out/
+      - name: Upload to YouTube as private (only if secrets are set)
+        if: env.YT_REFRESH_TOKEN != ''
+        run: python upload.py
+      - name: Remember which episode is done
+        run: |
+          git config user.name "episode-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add done.txt
+          git commit -m "episode done" || echo "nothing to commit"
+          git push
