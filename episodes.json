@@ -1,0 +1,61 @@
+{
+  "channel": "SMW Bobo & Fern Tales",
+  "style": "soft 3D cartoon, warm colors, cozy lighting, friendly rounded characters, clean simple background, vertical 9:16",
+  "characters": {
+    "Bobo": "a small round orange teddy bear with big black eyes and a green backpack",
+    "Fern": "a small red tree frog wearing a tiny green leaf hat",
+    "Pip": "a tiny yellow chick with fluffy feathers"
+  },
+  "episodes": [
+    {"id": "ep01", "title": "The Last Cookie", "moral": "Sharing is caring",
+     "shots": [
+      {"image_prompt": "Bobo the bear finds one big cookie on a table in a cozy bedroom, smiling", "narration": "One sunny morning, Bobo the bear found one big, yummy cookie."},
+      {"image_prompt": "Fern the frog peeks through the bedroom window looking hungry", "narration": "But outside the window, Fern the frog was very, very hungry."},
+      {"image_prompt": "Bobo and Fern share a cookie broken in half, both smiling happily", "narration": "So Bobo broke the cookie in half. Sharing makes everything taste better!"}]},
+    {"id": "ep02", "title": "Rain Day", "moral": "Be kind to friends",
+     "shots": [
+      {"image_prompt": "Bobo the bear holds a big green leaf umbrella on a rainy forest path", "narration": "It was a rainy day, and Bobo had a big leaf umbrella."},
+      {"image_prompt": "Fern the frog shivering under a small mushroom in the rain", "narration": "Fern was getting wet under a tiny mushroom."},
+      {"image_prompt": "Bobo and Fern walking together under one leaf umbrella in the rain, happy", "narration": "Bobo said, come under my umbrella! Now they were both warm and dry."}]},
+    {"id": "ep03", "title": "The Lost Balloon", "moral": "Helping each other",
+     "shots": [
+      {"image_prompt": "Pip the chick crying while a red balloon floats up into the sky", "narration": "Oh no! Pip's red balloon floated away."},
+      {"image_prompt": "Bobo the bear jumping and stretching to reach a high balloon but failing", "narration": "Bobo jumped and jumped, but he could not reach it."},
+      {"image_prompt": "Fern the frog standing on Bobo's shoulders catching the red balloon, Pip cheering", "narration": "Then Fern climbed up and caught it. Teamwork saved the day!"}]},
+    {"id": "ep04", "title": "Bedtime Song", "moral": "Be calm and kind",
+     "shots": [
+      {"image_prompt": "Pip the chick awake in a small nest at night under twinkling stars", "narration": "It was bedtime, but little Pip could not sleep."},
+      {"image_prompt": "Bobo the bear humming softly next to Pip's nest, stars twinkling", "narration": "Bobo sat close and hummed a soft, sleepy song."},
+      {"image_prompt": "Pip sleeping peacefully while Bobo tiptoes away, moonlight", "narration": "Soon Pip was fast asleep. Goodnight, little Pip."}]},
+    {"id": "ep05", "title": "The Muddy Puddle", "moral": "Clean up after fun",
+     "shots": [
+      {"image_prompt": "Fern the frog splashing happily in a big muddy puddle", "narration": "Splash! Fern loved jumping in the big muddy puddle."},
+      {"image_prompt": "Bobo the bear covered in mud looking surprised", "narration": "But the mud splashed all over Bobo!"},
+      {"image_prompt": "Bobo and Fern washing in a clear stream, laughing with bubbles", "narration": "They washed in the stream and laughed together. Fun and clean!"}]},
+    {"id": "ep06", "title": "The Tall Shelf", "moral": "Ask for help",
+     "shots": [
+      {"image_prompt": "Bobo the bear looking up at a jar of honey on a very tall shelf", "narration": "Bobo wanted the honey on the tall, tall shelf."},
+      {"image_prompt": "Bobo the bear falling backward after trying to climb, Fern watching", "narration": "He tried and tried, but he could not reach it."},
+      {"image_prompt": "Bobo and Fern stacked together reaching the honey jar, smiling", "narration": "Then Bobo asked Fern for help, and together they reached it. Asking for help is smart!"}]},
+    {"id": "ep07", "title": "The Wrong Turn", "moral": "Never give up",
+     "shots": [
+      {"image_prompt": "Bobo the bear and Fern the frog looking at a map in a green forest", "narration": "Bobo and Fern were going to the big meadow."},
+      {"image_prompt": "Bobo and Fern stopped at a wide river looking worried", "narration": "Uh oh! A wide river blocked their way."},
+      {"image_prompt": "Bobo and Fern crossing the river on a leaf boat, smiling", "narration": "They did not give up. They built a leaf boat and sailed across!"}]},
+    {"id": "ep08", "title": "Pip's First Flight", "moral": "Be brave",
+     "shots": [
+      {"image_prompt": "Pip the chick standing nervously on the edge of a tree branch", "narration": "Pip stood on the branch. It looked very high."},
+      {"image_prompt": "Bobo the bear and Fern the frog cheering from below, looking up", "narration": "Bobo and Fern cheered, you can do it, Pip!"},
+      {"image_prompt": "Pip the chick flying with tiny wings, leaves swirling like confetti", "narration": "Flap, flap, flap! Pip flew. Being brave feels wonderful!"}]},
+    {"id": "ep09", "title": "The Birthday Surprise", "moral": "Be thankful",
+     "shots": [
+      {"image_prompt": "Bobo the bear hanging colorful balloons in a treehouse", "narration": "Bobo had a secret. He was planning a surprise."},
+      {"image_prompt": "Fern the frog arriving at the treehouse door, curious", "narration": "Fern climbed up, wondering what was going on."},
+      {"image_prompt": "Fern the frog hugging Bobo in front of a birthday cake with a candle", "narration": "Surprise! Happy birthday, Fern! Fern said thank you with a big hug."}]},
+    {"id": "ep10", "title": "The Broken Toy", "moral": "Say sorry",
+     "shots": [
+      {"image_prompt": "Fern the frog accidentally dropping Bobo's little toy train", "narration": "Oops! Fern dropped Bobo's toy train, and it broke."},
+      {"image_prompt": "Fern the frog hiding behind a leaf looking sad and guilty", "narration": "Fern felt sad and hid behind a leaf."},
+      {"image_prompt": "Fern saying sorry to Bobo, then both fixing the toy train together", "narration": "Then Fern said sorry. Bobo smiled, and they fixed it together. Saying sorry is brave!"}]}
+  ]
+}
